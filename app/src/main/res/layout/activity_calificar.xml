@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calificar">
+
+    <Button
+        android:id="@+id/btnGuardar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:onClick="GuardarReg"
+        android:text="GUARDAR REGISTRO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rb14" />
+
+    <EditText
+        android:id="@+id/txtAlumno"
+        android:layout_width="322dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Alumno"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCodigoEstudiante1" />
+
+    <EditText
+        android:id="@+id/txtActividad"
+        android:layout_width="242dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="NOMBRE DE LA ACTIVIDAD"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCodActivi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtAtri1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:ems="10"
+        android:hint="Primer Atributo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtActividad" />
+
+    <RadioButton
+        android:id="@+id/rb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="13dp"
+        android:text="Exelente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri2" />
+
+    <RadioButton
+        android:id="@+id/rb12"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="74dp"
+        android:text="Malo"
+        app:layout_constraintStart_toEndOf="@+id/rb11"
+        app:layout_constraintTop_toBottomOf="@+id/rb8" />
+
+    <RadioButton
+        android:id="@+id/rb15"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Regular"
+        app:layout_constraintStart_toEndOf="@+id/rb14"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri4" />
+
+    <RadioButton
+        android:id="@+id/rb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="13dp"
+        android:text="Exelente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri3" />
+
+    <RadioButton
+        android:id="@+id/rb16"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="76dp"
+        android:text="Malo"
+        app:layout_constraintStart_toEndOf="@+id/rb15"
+        app:layout_constraintTop_toBottomOf="@+id/rb12" />
+
+    <RadioButton
+        android:id="@+id/rb11"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Regular"
+        app:layout_constraintStart_toEndOf="@+id/rb10"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri3" />
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="13dp"
+        android:text="Exelente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri1" />
+
+    <RadioButton
+        android:id="@+id/rb8"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="76dp"
+        android:text="Malo"
+        app:layout_constraintStart_toEndOf="@+id/rb7"
+        app:layout_constraintTop_toBottomOf="@+id/rb4" />
+
+    <RadioButton
+        android:id="@+id/rb4"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="312dp"
+        android:text="Malo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rb3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAtri3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Tercer Atributo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rb6" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Regular"
+        app:layout_constraintStart_toEndOf="@+id/rb2"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri1" />
+
+    <RadioButton
+        android:id="@+id/rb10"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="13dp"
+        android:text="Bien"
+        app:layout_constraintStart_toEndOf="@+id/rb9"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri3" />
+
+    <RadioButton
+        android:id="@+id/rb13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:text="Exelente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri4" />
+
+    <EditText
+        android:id="@+id/txtAtri4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Cuarto Atributo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rb10" />
+
+    <RadioButton
+        android:id="@+id/rb14"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="14dp"
+        android:text="Bien"
+        app:layout_constraintStart_toEndOf="@+id/rb13"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri4" />
+
+    <RadioButton
+        android:id="@+id/rb7"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Regular"
+        app:layout_constraintStart_toEndOf="@+id/rb6"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri2" />
+
+    <RadioButton
+        android:id="@+id/rb6"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="13dp"
+        android:text="Bien"
+        app:layout_constraintStart_toEndOf="@+id/rb5"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri2" />
+
+    <EditText
+        android:id="@+id/txtAtri2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Segundo Atributo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rb2" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="13dp"
+        android:text="Bien"
+        app:layout_constraintStart_toEndOf="@+id/rb1"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtri1" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="Consultarr"
+        android:text="Consultar"
+        app:layout_constraintEnd_toStartOf="@+id/txtCodigoEstudiante1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCodigoEstudiante1"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/txtcodestudiante"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/btnGuardarCali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:onClick="CalcularNota"
+        android:text="Calificar"
+        app:layout_constraintStart_toEndOf="@+id/btnGuardar3"
+        app:layout_constraintTop_toTopOf="@+id/rb15" />
+
+    <EditText
+        android:id="@+id/txtCodActivi"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Ingrese el codigo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtAlumno"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:onClick="ConsultarA"
+        android:text="Consultar Atividad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAlumno" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rubric</string>
+    <string name="txt1">Ingrese el No Carne</string>
+    <string name="txt2">Ingrese el Nombre</string>
+    <string name="txt3">Ingrese el Apellido</string>
+    <string name="spinnet1">Seleccione grado</string>
+    <string name="btn1">Guardar</string>
+    <string name="btn2">Consultar</string>
+    <string name="btn3">Eliminar</string>
+    <string name="btn4">Modificar</string>
+
+    <string name="txtAct1">Ingrese el codigo de Actividad</string>
+    <string name="txtAct2">Ingrese el nombre de la Actividad</string>
+    <string name="txtAct3">Ingrese el Primer Aspecto</string>
+    <string name="txtAct4">Ingrese el Segundo Aspecto</string>
+    <string name="txtAct5">Ingrese el Tercer Aspecto</string>
+    <string name="txtAct6">Ingrese el Cuarto Aspecto</string>
+    <string name="txtAct7">Ingrese los aspectos a calificar</string>
+    <string name="txtcodestudiante">Ingrese el No Carne del Alumno</string>
+
+    <string name="val1">Ingrese el Usuario</string>
+    <string name="val2">Ingrese la Contraseña</string>
+    <string name="val3">Iniciar Sesion</string>
+    <string name="val4">Registrarse</string>
+
+
+</resources>
